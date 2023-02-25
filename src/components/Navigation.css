@@ -1,0 +1,9 @@
+.container{
+    display: flex;
+}
+
+.navbar-collapse{
+    display: flex;
+    margin: 10%;
+        
+}
