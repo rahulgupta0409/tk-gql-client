@@ -1,0 +1,41 @@
+.bg-dark{
+    height: 250px;
+    margin-top: 2500px;  
+}
+
+.container{
+    display: inline-block;
+}
+
+.map-google{
+    display: inline-block;
+    cursor: pointer;
+    margin-right: 20px;
+    margin-top: 30px;
+    margin-left: 30px;   
+}
+
+.call-me{
+    cursor: pointer;
+    margin-left: 30px;
+}
+
+.address-info{
+    display: inline-block;
+    color: aliceblue;
+    vertical-align: middle;
+    margin-top: 40px;
+    font-family: serif;
+    font-weight: normal;
+    font-size: small;
+}
+.mobile-number{
+    display: inline-block;
+    color: aliceblue;
+    vertical-align: middle;
+    margin-top: 20px;
+    margin-left: 20px;
+    font-family: serif;
+    font-weight: normal;
+    font-size: small;
+}
