@@ -1,12 +1,13 @@
 import React from 'react'
 import './Navigation.css'
-import PropTypes from 'prop-types'
+import propTypes from 'prop-types'
 
 export default function Navigation(props) {
   return (
     <>
-      <nav className="navbar navbar-expand-lg bg-body-tertiary">
+      <nav className="navbar navbar-expand-lg bg-primary-subtle">
         <div className="container-fluid">
+        <img src="./image-folder/Tilak-pathology.png" alt="" height= "45px" width="45px"/>
           <a className="navbar-brand" href="/">{props.title}</a>
           <button className="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
             <span className="navbar-toggler-icon"></span>
@@ -38,12 +39,16 @@ export default function Navigation(props) {
           </div>
         </div>
       </nav>
+
+      {/* <div class="p-3 mb-2 bg-primary-subtle text-emphasis-primary" className='bg-light'></div>
+      <div class="p-3 mb-2 bg-primary-subtle text-emphasis-primary" className='bg-dark'></div> */}
+
     </>    
   )
 }
 
-Navigation.PropTypes = {
-  title: PropTypes.string
+Navigation.propTypes = {
+  title: propTypes.string
 }
 
 Navigation.defaultProps = {
